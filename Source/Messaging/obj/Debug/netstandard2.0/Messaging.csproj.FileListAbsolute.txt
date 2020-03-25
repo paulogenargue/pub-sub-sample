@@ -6,11 +6,3 @@ C:\Users\pgenargue\projects\pub-sub-sample\Messaging\bin\Debug\netstandard2.0\Me
 C:\Users\pgenargue\projects\pub-sub-sample\Messaging\bin\Debug\netstandard2.0\Messaging.pdb
 C:\Users\pgenargue\projects\pub-sub-sample\Messaging\obj\Debug\netstandard2.0\Messaging.dll
 C:\Users\pgenargue\projects\pub-sub-sample\Messaging\obj\Debug\netstandard2.0\Messaging.pdb
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\bin\Debug\netstandard2.0\Messaging.deps.json
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\bin\Debug\netstandard2.0\Messaging.dll
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\bin\Debug\netstandard2.0\Messaging.pdb
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\obj\Debug\netstandard2.0\Messaging.csprojAssemblyReference.cache
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\obj\Debug\netstandard2.0\Messaging.AssemblyInfoInputs.cache
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\obj\Debug\netstandard2.0\Messaging.AssemblyInfo.cs
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\obj\Debug\netstandard2.0\Messaging.dll
-C:\Users\pgenargue\projects\pub-sub-sample\Source\Messaging\obj\Debug\netstandard2.0\Messaging.pdb
