@@ -1,0 +1,15 @@
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.exe
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.deps.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.runtimeconfig.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.runtimeconfig.dev.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\PubSample.pdb
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\Messaging.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\bin\Debug\netcoreapp3.1\Messaging.pdb
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.csprojAssemblyReference.cache
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.AssemblyInfoInputs.cache
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.AssemblyInfo.cs
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.csproj.CopyComplete
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\PubSample\obj\Debug\netcoreapp3.1\PubSample.pdb

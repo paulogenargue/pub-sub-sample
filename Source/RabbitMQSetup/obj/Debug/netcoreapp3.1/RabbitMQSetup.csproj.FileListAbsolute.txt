@@ -1,0 +1,13 @@
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.exe
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.deps.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.runtimeconfig.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.runtimeconfig.dev.json
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQSetup.pdb
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.csprojAssemblyReference.cache
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.AssemblyInfoInputs.cache
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.AssemblyInfo.cs
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.csproj.CopyComplete
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.dll
+C:\Users\pgenargue\projects\pub-sub-sample\Source\RabbitMQSetup\obj\Debug\netcoreapp3.1\RabbitMQSetup.pdb
