@@ -1,7 +1,7 @@
 namespace Messaging
 {
-    public interface IPublisherFactory
+    public interface IPublisherFactory<T>
     {
-        IPublisher Create(string topic);
+        IPublisher<T> Create();
     }
 }

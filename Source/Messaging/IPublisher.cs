@@ -2,8 +2,8 @@
 
 namespace Messaging
 {
-    public interface IPublisher
+    public interface IPublisher<T>
     {
-        void Publish(string message);
+        void Publish(T message);
     }
 }
