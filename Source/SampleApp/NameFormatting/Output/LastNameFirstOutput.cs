@@ -4,22 +4,22 @@ namespace SampleApp.NameFormatting.Output
 {
     public class LastNameFirstOutput : IOutput<Name>
     {
-        private readonly IOutput<string> strOutput;
+        private readonly IOutput<string> stringOutput;
 
-        public LastNameFirstOutput(IOutput<string> strOutput)
+        public LastNameFirstOutput(IOutput<string> stringOutput)
         {
-            this.strOutput = strOutput;
+            this.stringOutput = stringOutput;
         }
 
-        public void Write(Name name)
+        public void Write(Name value)
         {
-            if (!string.IsNullOrEmpty(name.First) && !string.IsNullOrEmpty(name.Last))
+            if (!string.IsNullOrEmpty(value.First) && !string.IsNullOrEmpty(value.Last))
             {
-                strOutput.Write($"{name.Last}, {name.First}");
+                stringOutput.Write($"{value.Last}, {value.First}");
             }
             else
             {
-                strOutput.Write($"{name.First} {name.Last}".Trim());
+                stringOutput.Write($"{value.First} {value.Last}".Trim());
             }
         }
     }

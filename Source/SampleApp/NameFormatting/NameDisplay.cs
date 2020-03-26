@@ -6,6 +6,9 @@ using SampleApp.NameFormatting.Output;
 
 namespace SampleApp
 {
+    /// <summary>
+    /// Subscribes to new names and displays them.
+    /// </summary>
     public class NameDisplay
     {
         private readonly ISubscription<Name> subscription;
@@ -19,8 +22,9 @@ namespace SampleApp
 
         public void Run()
         {
-            subscription.Subscribe((Name)=>{
-                output.ToList().ForEach(o=>o.Write(Name));
+            subscription.Subscribe((Name) =>
+            {
+                output.ToList().ForEach(o => o.Write(Name));
             });
         }
     }

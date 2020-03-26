@@ -4,16 +4,16 @@ namespace SampleApp.NameFormatting.Output
 {
     public class FirstNameFirstOutput : IOutput<Name>
     {
-        private readonly IOutput<string> strOutput;
+        private readonly IOutput<string> stringOutput;
 
-        public FirstNameFirstOutput(IOutput<string> strOutput)
+        public FirstNameFirstOutput(IOutput<string> stringOutput)
         {
-            this.strOutput = strOutput;
+            this.stringOutput = stringOutput;
         }
 
         public void Write(Name value)
         {
-            strOutput.Write($"{value.First} {value.Last}".Trim());
+            stringOutput.Write($"{value.First} {value.Last}".Trim());
         }
     }
 }

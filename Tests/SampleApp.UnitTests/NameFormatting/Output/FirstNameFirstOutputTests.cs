@@ -3,7 +3,7 @@ using NUnit.Framework;
 using SampleApp.NameFormatting.Model;
 using SampleApp.NameFormatting.Output;
 
-namespace SampleApp.UnitTests.Output
+namespace SampleApp.UnitTests.NameFormatting.Output
 {
     [TestFixture]
     public class FirstNameFirstOutputTests

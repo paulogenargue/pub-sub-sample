@@ -20,7 +20,7 @@ namespace SampleApp
             // Run the display
             serviceProvider.GetService<NameDisplay>().Run();
 
-            // Run the main
+            // Run the reader 
             serviceProvider.GetService<NameReader>().Run();
         }
     }

@@ -4,28 +4,31 @@ using SampleApp.NameFormatting.Model;
 
 namespace SampleApp
 {
-        public class NameReader
+    /// <summary>
+    /// Reads a name and publishes it.
+    /// </summary>
+    public class NameReader
+    {
+        private readonly IInput<Name> input;
+        private readonly IPublisher<Name> publisher;
+
+        public NameReader(IInput<Name> input, IPublisher<Name> publisher)
         {
-            private readonly IInput<Name> input;
-            private readonly IPublisher<Name> publisher;
+            this.input = input;
+            this.publisher = publisher;
+        }
 
-            public NameReader(IInput<Name> input, IPublisher<Name> publisher)
+        public void Run()
+        {
+            while (true)
             {
-                this.input = input;
-                this.publisher = publisher;
-            }
+                var name = input.Read();
 
-            public void Run()
-            {
-                while (true)
-                {
-                    var name = input.Read();
+                if (name == null)
+                    break;
 
-                    if (name == null)
-                        break;
-
-                    publisher.Publish(name);
-                }
+                publisher.Publish(name);
             }
         }
+    }
 }
