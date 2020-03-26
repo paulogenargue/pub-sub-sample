@@ -1,6 +1,7 @@
-﻿using Messaging;
-using Messaging.InMemory;
+﻿using Messaging.InMemory;
 using Microsoft.Extensions.DependencyInjection;
+using SampleApp.ConsoleIO;
+using SampleApp.NameFormatting;
 using System;
 
 namespace SampleApp
@@ -11,22 +12,16 @@ namespace SampleApp
         {
             var services = new ServiceCollection();
             services.AddInMemoryMessaging();
+            services.AddConsoleIO();
+            services.AddNameFormatting();
 
             IServiceProvider serviceProvider = services.BuildServiceProvider();
 
-            var publisher = serviceProvider.GetService<IPublisher<string>>();
-            var subscription = serviceProvider.GetService<ISubscription<string>>();
-            subscription.Subscribe(Console.WriteLine);
-            var subscription2 = serviceProvider.GetService<ISubscription<string>>();
-            subscription2.Subscribe(Console.WriteLine);
+            // Run the display
+            serviceProvider.GetService<NameDisplay>().Run();
 
-            var numPublihser = serviceProvider.GetService<IPublisher<int>>();
-            var numericSubscription = serviceProvider.GetService<ISubscription<int>>();
-            numericSubscription.Subscribe(Console.WriteLine);
-
-            publisher.Publish("Apple");
-            numPublihser.Publish(1000);
-            Console.Read();
+            // Run the main
+            serviceProvider.GetService<NameReader>().Run();
         }
     }
 }
